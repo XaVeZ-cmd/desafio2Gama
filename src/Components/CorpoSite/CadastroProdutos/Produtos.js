@@ -25,7 +25,6 @@ function Produtos() {
     return (
       <>
       <div class="return">Produto Cadastrado!</div>
-      <Link to="/produtos"><button className="btn btn-primary">Novo Produto</button></Link>
       <Link to="/"><button className="btn btn-primary">Home</button></Link>
       </>
     )

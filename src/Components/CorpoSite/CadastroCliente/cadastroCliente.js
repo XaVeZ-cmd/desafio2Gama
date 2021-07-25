@@ -26,7 +26,6 @@ function Cliente() {
     return (
       <>
       <div class="return">Cliente Cadastrado!</div>
-      <Link to="/clientes"><button className="btn btn-primary">Novo Cliente</button></Link>
       <Link to="/"><button className="btn btn-primary">Home</button></Link>
       </>
     )
