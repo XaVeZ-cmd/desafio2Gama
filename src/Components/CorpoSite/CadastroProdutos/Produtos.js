@@ -1,4 +1,5 @@
 import React, {useState} from 'react';
+import { Link } from 'react-router-dom';
 
 
 function Produtos() {
@@ -24,8 +25,8 @@ function Produtos() {
     return (
       <>
       <div class="return">Produto Cadastrado!</div>
-      <a href="/produtos" className="btn btn-primary">Novo Produto</a>
-      <a href="/" className="btn btn-primary">Home</a>
+      <Link to="/produtos"><button className="btn btn-primary">Novo Produto</button></Link>
+      <Link to="/"><button className="btn btn-primary">Home</button></Link>
       </>
     )
   }

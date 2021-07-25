@@ -1,5 +1,6 @@
 import React, {useState} from 'react';
 import Header from '../../Header/Header';
+import { Link } from 'react-router-dom';
 
 
 function Cliente() {
@@ -25,8 +26,8 @@ function Cliente() {
     return (
       <>
       <div class="return">Cliente Cadastrado!</div>
-      <a href="/clientes" className="btn btn-primary">Novo Cliente</a>
-      <a href="/" className="btn btn-primary">Home</a>
+      <Link to="/clientes"><button className="btn btn-primary">Novo Cliente</button></Link>
+      <Link to="/"><button className="btn btn-primary">Home</button></Link>
       </>
     )
   }
